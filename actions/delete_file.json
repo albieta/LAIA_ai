@@ -1,0 +1,6 @@
+{
+    "name": "delete_file",
+    "description": "This function deletes the specified file.",
+    "inputs": ["file path"],
+    "code": "code here"
+}

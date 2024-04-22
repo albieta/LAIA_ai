@@ -1,1 +1,6 @@
-{}
+{
+    "name": "project_files_architecture",
+    "description": "This function displays the tree architecture of a directory up to two levels.",
+    "inputs": ["directory_path"],
+    "code": ""
+}

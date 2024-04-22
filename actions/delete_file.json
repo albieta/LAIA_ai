@@ -1,6 +1,6 @@
 {
     "name": "delete_file",
     "description": "This function deletes the specified file.",
-    "inputs": ["file path"],
-    "code": "code here"
+    "inputs": ["file_path"],
+    "code": "import os\ntry:\n    os.remove(file_path)\n    output = 'File deleted successfully'\nexcept FileNotFoundError:\n    output = f'File {file_path} not found.'\nexcept PermissionError:\n    output = f'Permission denied to delete {file_path}.'\n"
 }

@@ -1,1 +1,6 @@
-{}
+{
+    "name": "create_file",
+    "description": "This function creates a file.",
+    "inputs": ["file_path"],
+    "code": ""
+}

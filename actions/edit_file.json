@@ -1,1 +1,6 @@
-{}
+{
+    "name": "edit_file",
+    "description": "This function edits a specific file.",
+    "inputs": ["file_path", "file_content"],
+    "code": "import os\ntry:\n    with open(file_path, 'w') as file:\n        file.write(file_content)\nexcept Exception as e:"
+}
